@@ -339,7 +339,30 @@ imgH
 .nav-invert .navbar .nav {
     float: left;
 }
-
+.agence_1
+{
+    padding-left: 10rem;
+}
+.agence_3
+{
+    padding-left: 37rem;
+    position: relative;top: -35rem;
+}
+.text_1
+{
+    padding-left: 20rem;
+    position: relative;top: -55rem;
+}
+.text_2
+{
+    padding-left: 18rem;
+    position: relative;top: -57rem;
+}
+.text_3
+{
+    padding-left: 22rem;
+    position: relative;top: -45rem;
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
@@ -419,7 +442,10 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-
+.Web-design
+{
+    margin-top: -45rem;
+}
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
