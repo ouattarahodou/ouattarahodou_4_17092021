@@ -18,15 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
 
+imgH 
+{
+    max-width: 100%;
+    display: flex;
+    height: 400px;
+    align-content: center;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -299,20 +298,6 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-}
-
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
-}
-
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
-.nav-center .navbar-brand img {
-    margin: 0;
 }
 
 .navbar .nav {
