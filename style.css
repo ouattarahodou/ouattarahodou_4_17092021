@@ -339,6 +339,12 @@ imgH
 .nav-invert .navbar .nav {
     float: left;
 }
+.accuil-group 
+{
+    color: orangered;
+    position: relative;top: 1rem;
+    display: flex;
+}
 .agence_1
 {
     padding-left: 10rem;
@@ -385,20 +391,21 @@ imgH
     position: relative;top: -44rem;
     padding-left: 16rem;
 }
-.group-img 
-{
-    width: 100%;
-    height: 300px;
-}
-.img-1 img h3 p, .img-2 img h3 p, .img-3 img h3 p, .img-4 img h3 p    
+
+.group-img img 
 {
     max-width: 100%;
     height: 400px;
     display: flex;
-    text-align: center;
-    position: relative;top: -42rem;
-    padding-left: 17rem;
-
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+.group-img img-1 h3 p, 
+.group-img img-2 h3 p, 
+.group-img img-3 h3 p, 
+.group-img img-4 h3 p    
+{
+    
 }
 .Web-design
 {
