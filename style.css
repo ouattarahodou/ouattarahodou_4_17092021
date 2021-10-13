@@ -268,6 +268,18 @@ body {
     min-height: 50px;
     border: 1px solid transparent;
 }
+.navbar-toggle .icon-bar
+{
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+.bloc
+{
+    width: 100%;
+    clear: both;
+    padding: 0 50px;
+    margin-left: -3rem;
+}
 .navbar-brand
 {
     height: auto;
@@ -283,6 +295,7 @@ body {
     width: auto;
     margin: 0 5px 0 0;
     display: inline;
+    margin-left: -10px;
 }
 .navbar-toggle
 {
@@ -419,7 +432,7 @@ a, button
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     background: rgba(0, 0, 0, .05);
     text-align: left;
-    padding-left: 15px;
+    display: none;
     width: 100%;
     float: left;
     font-size: 16px;
@@ -498,6 +511,7 @@ h1, h2, h3, h5, h6, p, #disqus_thread
     padding-right: 0;
     position: relative;
 }
+
 .bloc-md
 {
     padding: 50px;
@@ -721,6 +735,7 @@ img
 {
     max-width: 600px;
     margin: auto auto auto auto;
+    padding-left: 3rem;
 }
 .bg-banniere
 {
@@ -781,6 +796,10 @@ h1, h2, h3, h5, h6, p, label, .btn, a
     font-size: 14px;
     opacity: 1;
 }
+.bloc-lg
+{
+    padding: 100px 50px;
+}
 .scrollToTop
 {
     width: 40px;
@@ -794,6 +813,7 @@ h1, h2, h3, h5, h6, p, label, .btn, a
 .btn-d, .btn-d:hover, .btn-d:focus
 {
     background: rgba(0, 0, 0, .3);
+    text-align: center;
 }
 .btn
 {
@@ -828,7 +848,7 @@ h1, h2, h3, h5, h6, p, label, .btn, a
 {
     width: 100%;
     clear: both;
-    background: 50% 50% no-repeat;
+    
     padding: 0 50px;
     background-image: url("img\Starting website\img\texture-paper.png");
 }
@@ -886,6 +906,153 @@ ol, ul
     margin-top: 0;
     margin-bottom: 10px;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 601px)  and (max-width: 767px){
+
+    .operation__bloc
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .restaurant
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 13rem 13rem;
+        column-gap: 2rem;
+    }
+    
+    .footer
+    {
+        text-align: center;
+    }
+    
+} 
+
+
+/* Small devices (portrait tablets and large phones, 769px and up) */
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container
+    {
+        width: 100%;
+    }
+    .tight-width-whitespace
+    {
+        max-width: 600px;
+        margin: auto auto auto auto;
+    }
+    .col-sm-6 
+    {
+        width: 50%;
+        float: left;
+        
+       
+    }
+    .nav > li
+    {
+        margin-top: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        background: rgba(0, 0, 0, .05);
+        text-align: left;
+        padding-left: 15px;
+        width: 100%;
+
+        float: left;
+        font-size: 16px;
+    }
+    .bloc
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container
+    {
+        width: 100%;
+    }
+    .col-sm-4 
+    {
+        width: 33.33333333%;
+        float: left;
+        
+        
+    }
+    .navbar-collapse 
+    {
+    padding: 0;
+    overflow-x: hidden;
+    box-shadow: none;
+    }
+    .bloc
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .page-container
+    {
+        overflow-x: hidden;
+        position: relative;
+    }
+    .navbar.row
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-brand img
+    {
+        max-height: 40px;
+        width: auto;
+    }
+    .r
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 13rem 13rem;
+        column-gap: 2rem;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+
+} 
+
+
+/* Small devices (portrait tablets and large phones, 1200px and up) */
+@media (min-width: 1224px)  {
+
+    .operation__bloc
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .col-sm-6 
+    {
+        width: 50%;
+        float: left;
+        
+       
+    }
+    .restaurant
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 13rem 13rem;
+        column-gap: 2rem;
+    }
+    .footer
+    {
+        text-align: center;
+    }
+
+}
+
 
 
 /*
